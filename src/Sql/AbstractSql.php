@@ -400,9 +400,9 @@ abstract class AbstractSql implements SqlInterface
             if (isset($column['isIdentifier'])) {
                 $isIdentifier = (bool) $column['isIdentifier'];
             }
-            if (isset($column['fromTable']) && $column['fromTable'] !== null) {
-                $fromTable = $column['fromTable'];
-            }
+            // if (isset($column['fromTable']) && $column['fromTable'] !== null) {
+            //     $fromTable = $column['fromTable'];
+            // }
             $column = $column['column'];
         }
 
