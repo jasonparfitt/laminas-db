@@ -28,6 +28,9 @@
         "laminas": {
             "component": "Laminas\\Db",
             "config-provider": "Laminas\\Db\\ConfigProvider"
+        },
+        "branch-alias": {
+            "dev-2.21.x": "2.21.0"
         }
     },
     "require": {
